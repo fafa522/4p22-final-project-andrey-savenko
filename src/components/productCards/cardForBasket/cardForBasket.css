@@ -1,0 +1,68 @@
+.cards-basket__wrap {
+    width: calc(760 / 1920 * 100vw);
+    height: calc(700 / 1920 * 100vw);
+    background-color: #000;
+    padding: calc(5 / 1920 * 100vw) calc(10 / 1920 * 100vw) calc(5 / 1920 * 100vw) calc(30 / 1920 * 100vw);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-top: solid #fcec0c;
+    border-right: calc(12 / 1920 * 100vw) solid #fcec0c;
+    border-left: calc(4 / 1920 * 100vw) solid #fcec0c;
+    border-bottom: calc(4 / 1920 * 100vw) solid #fcec0c;
+    border-radius: calc(10 / 1920 * 100vw);
+    align-items: center;
+}
+.cards-basket__img {
+    width: calc(600 / 1920 * 100vw);
+    height: calc(400 / 1920 * 100vw);
+}
+.title-cards__basket {
+    color: #FF1111;
+    font-family: 'BlenderPro';
+    font-size: calc(1px + 31 * (100vw / 1920));
+    margin-bottom: calc(5 / 1920 * 100vw);
+}
+.description-cards__basket {
+    color: #FF1111;
+    font-family: 'BlenderPro';
+    font-size: calc(1px + 23 * (100vw / 1920));
+    margin-bottom: calc(5 / 1920 * 100vw);
+}
+.price-cards__basket {
+    color: #fcec0c;
+    font-family: 'BlenderPro';
+    font-size: calc(1px + 31 * (100vw / 1920));
+    background-color: #0000;
+    border: 2px solid #FF1111;
+}
+.price-cards__basket:hover {
+    border: 2px solid #02D7F2;
+    color: #FF1111;
+}
+
+@media screen and (max-width: 1200px) {
+    .cards-basket__wrap {
+        width: calc(760 / 1200 * 100vw);
+        height: calc(700 / 1200 * 100vw);
+    }
+    .cards-basket__img {
+        width: calc(600 / 1200 * 100vw);
+        height: calc(400 / 1200 * 100vw);
+    }
+    .title-cards__basket {
+        font-size: calc(1px + 31 * (100vw / 1200));
+        margin-bottom: calc(5 / 1200 * 100vw);
+    }
+    .description-cards__basket {
+        font-size: calc(1px + 23 * (100vw / 1200));
+        margin-bottom: calc(5 / 1200 * 100vw);
+    }
+    .price-cards__basket {
+        font-size: calc(1px + 31 * (100vw / 1200));
+        border: calc(2 / 1200 * 100vw) solid #FF1111;
+    }
+    .price-cards__basket:hover {
+        border: calc(2 / 1200 * 100vw) solid #02D7F2;
+    }
+}

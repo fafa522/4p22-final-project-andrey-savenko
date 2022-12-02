@@ -1,0 +1,35 @@
+.cards-implant__wrap {
+    width: calc(460 / 1920 * 100vw);
+    height: calc(470 / 1920 * 100vw);
+    background-color: #000;
+    padding: calc(5 / 1920 * 100vw) calc(10 / 1920 * 100vw) calc(5 / 1920 * 100vw) calc(30 / 1920 * 100vw); 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-top:  solid #fcec0c;
+    border-right: calc(12 / 1920 * 100vw) solid #fcec0c;
+    border-left: calc(4 / 1920 * 100vw) solid #fcec0c;
+    border-bottom: calc(4 / 1920 * 100vw)  solid #fcec0c;
+    border-radius: calc(10 / 1920 * 100vw);
+}
+.cards-implant__img {
+    width: calc(320 / 1920 * 100vw);
+    height: calc(220 / 1920 * 100vw);
+}
+.title-cards__implant {
+    color: #FF1111;
+    font-family: 'BlenderPro';
+    font-size: calc(1px + 31 * (100vw / 1920));
+    margin-bottom: calc(5 / 1920 * 100vw);
+}
+.description-cards__implant {
+    color: #FF1111;
+    font-family: 'BlenderPro';
+    font-size: calc(1px + 23 * (100vw / 1920));
+    margin-bottom: calc(5 / 1920 * 100vw);
+}
+.price-cards__implant {
+    color: #FF1111;
+    font-family: 'BlenderPro';
+    font-size: calc(1px + 31 * (100vw / 1920));
+}

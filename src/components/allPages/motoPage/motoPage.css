@@ -1,0 +1,29 @@
+.moto-page__wrap {
+    background: black;
+    min-height: 100vh;
+}
+
+.moto-page__title {
+    font-family: 'BlenderPro';
+    padding: 30px 0px 30px 0px;
+    font-size: calc(12px + 52 * (100vw / 1920));
+    color: #FCEC0C;
+    display: flex;
+    justify-content: center
+}
+.moto-cards__wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: calc(40 / 1920 * 100vw);
+    justify-content: space-evenly;
+}
+@media screen and (max-width: 1200px) {
+    .moto-page__wrap {
+        min-height: 93.4vh;
+    }
+}
+@media screen and (max-width: 480px) {
+    .moto-page__wrap {
+        min-height: 89vh;
+    }
+}

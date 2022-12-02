@@ -1,0 +1,29 @@
+.cards__wrap {
+    width: calc(460 / 1920 * 100vw);
+    height: calc(410 / 1920 * 100vw);
+    background-color: #FCEC0C;
+    background-image:linear-gradient(315deg,rgb(0, 0, 0)6%, #fcec0c 5%);
+    padding: calc(5 / 1920 * 100vw) calc(10 / 1920 * 100vw) calc(5 / 1920 * 100vw) calc(10 / 1920 * 100vw); 
+    display: flex;
+    flex-wrap: wrap;
+}
+.cards__img {
+    width: calc(440 / 1920 * 100vw);
+    height: calc(220 / 1920 * 100vw);
+}
+.title__cards {
+    color: #FF1111;
+    font-family: 'BlenderPro';
+    font-size: calc(1px + 31 * (100vw / 1920));
+}
+.description__cards {
+    color: #FF1111;
+    font-family: 'BlenderPro';
+    font-size: calc(1px + 23 * (100vw / 1920));
+}
+.price__cards {
+    color: #FF1111;
+    font-family: 'BlenderPro';
+    font-size: calc(1px + 31 * (100vw / 1920));
+    display: inline;
+}

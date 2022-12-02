@@ -1,0 +1,7 @@
+.basket-page__wrap {
+    background: black;
+    min-height: 108vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
