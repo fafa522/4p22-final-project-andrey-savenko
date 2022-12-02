@@ -1,6 +1,6 @@
 import './App.css';
 
-import { Route, Routes } from 'react-router-dom'
+import { BrowserRouter, Route} from 'react-router-dom'
 import LayoutHeader from './components/Layouts/layoutHeader';
 import MotoPage from './components/allPages/motoPage/motoPage';
 import CarPage from './components/allPages/carsPage/carPage';
@@ -11,8 +11,7 @@ import BasketPage from './components/allPages/basketPage/basketPage';
 
 function App() {
   return (
-
-    <Routes>
+    <BrowserRouter basename='4p22-final-project-andrey-savenko'>
     <Route path={'/'} element={<LayoutHeader/>}>
       <Route index element={<MainScreen/>} />
       <Route path={'/motoPage'} element={<MotoPage/>} /> 
@@ -27,7 +26,7 @@ function App() {
       <Route path={'carPage/opinion'} element={<OpinionPage/>} /> 
       <Route path={'motoPage/opinion'} element={<OpinionPage/>} /> 
       </Route>
- </Routes>
+ </BrowserRouter>
   );
 }
 
