@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/4p22-final-project-andrey-savenko/static/css/main.073c9b0a.css",
-    "main.js": "/4p22-final-project-andrey-savenko/static/js/main.0cd1b6f4.js",
-    "static/js/787.93cd45b5.chunk.js": "/4p22-final-project-andrey-savenko/static/js/787.93cd45b5.chunk.js",
-    "static/media/logo.svg": "/4p22-final-project-andrey-savenko/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/4p22-final-project-andrey-savenko/static/css/main.652ecb70.css",
+    "main.js": "/4p22-final-project-andrey-savenko/static/js/main.53068bae.js",
+    "static/media/map.png": "/4p22-final-project-andrey-savenko/static/media/map.cd06137cc64f4641a3c7.png",
+    "static/media/BlenderPro-Book.ttf": "/4p22-final-project-andrey-savenko/static/media/BlenderPro-Book.322ca372c0773754fbed.ttf",
     "index.html": "/4p22-final-project-andrey-savenko/index.html",
-    "main.073c9b0a.css.map": "/4p22-final-project-andrey-savenko/static/css/main.073c9b0a.css.map",
-    "main.0cd1b6f4.js.map": "/4p22-final-project-andrey-savenko/static/js/main.0cd1b6f4.js.map",
-    "787.93cd45b5.chunk.js.map": "/4p22-final-project-andrey-savenko/static/js/787.93cd45b5.chunk.js.map"
+    "main.652ecb70.css.map": "/4p22-final-project-andrey-savenko/static/css/main.652ecb70.css.map",
+    "main.53068bae.js.map": "/4p22-final-project-andrey-savenko/static/js/main.53068bae.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.0cd1b6f4.js"
+    "static/css/main.652ecb70.css",
+    "static/js/main.53068bae.js"
   ]
 }
