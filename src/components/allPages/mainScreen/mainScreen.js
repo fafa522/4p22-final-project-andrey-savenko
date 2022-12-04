@@ -1,5 +1,6 @@
 import './mainScreen.css';
 import mapImg from '../../../assets/map.png';
+import { Link } from 'react-router-dom';
 
 
 const MainScreen = () => {
@@ -10,15 +11,15 @@ const MainScreen = () => {
             <div className='main-content'>
                 <div className='categories-wrap'>
                     <div className='car-wrap'>
-                        <a href='/4p22-final-project-andrey-savenko/carPage' className='categories__car'>Машины</a>
+                        <Link to='/carPage' className='categories__car'>Машины</Link>
                         <div className='desc-categories__car'>Машины на любой вкус и бюджет</div>
                     </div>
                     <div className='moto-wrap'>
-                        <a href='/4p22-final-project-andrey-savenko/motoPage' className='categories__moto'>Мотоциклы</a>
+                        <Link to='/motoPage' className='categories__moto'>Мотоциклы</Link>
                         <div className='desc-categories__moto'>У нас есть все виды мотоциклов</div>
                     </div>
                     <div className='implant-wrap'>
-                    <a href='/4p22-final-project-andrey-savenko/implantPage' className='categories__implant'>Импланты</a>
+                    <Link to='/implantPage' className='categories__implant'>Импланты</Link>
                     <div className='desc-categories_implant'>Только качественный хром</div>
                     </div>
                 </div>
