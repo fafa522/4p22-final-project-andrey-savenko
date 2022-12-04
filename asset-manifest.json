@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/4p22-final-project-andrey-savenko/static/css/main.652ecb70.css",
-    "main.js": "/4p22-final-project-andrey-savenko/static/js/main.53068bae.js",
+    "main.js": "/4p22-final-project-andrey-savenko/static/js/main.1db9c3b6.js",
     "static/media/map.png": "/4p22-final-project-andrey-savenko/static/media/map.cd06137cc64f4641a3c7.png",
     "static/media/BlenderPro-Book.ttf": "/4p22-final-project-andrey-savenko/static/media/BlenderPro-Book.322ca372c0773754fbed.ttf",
     "index.html": "/4p22-final-project-andrey-savenko/index.html",
     "main.652ecb70.css.map": "/4p22-final-project-andrey-savenko/static/css/main.652ecb70.css.map",
-    "main.53068bae.js.map": "/4p22-final-project-andrey-savenko/static/js/main.53068bae.js.map"
+    "main.1db9c3b6.js.map": "/4p22-final-project-andrey-savenko/static/js/main.1db9c3b6.js.map"
   },
   "entrypoints": [
     "static/css/main.652ecb70.css",
-    "static/js/main.53068bae.js"
+    "static/js/main.1db9c3b6.js"
   ]
 }
