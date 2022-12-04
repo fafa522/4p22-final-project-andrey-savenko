@@ -8,7 +8,7 @@ function BasketPage() {
     const { id } = useParams();
     
     useEffect(() => {
-        fetch(`http://localhost:3000/card`)
+        fetch(`https://run.mocky.io/v3/ad5cfa38-a17b-4944-9d79-ad129135f8b9`)
         .then(response => response.json())
         .then(response => setState(response));
     },[]);
