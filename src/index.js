@@ -6,7 +6,7 @@ import { BrowserRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
+  <BrowserRouter basename='4p22-final-project-andrey-savenko'>
+  <App />
+</BrowserRouter>
 );
