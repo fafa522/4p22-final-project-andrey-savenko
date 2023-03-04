@@ -6,7 +6,7 @@ function MotoPage() {
     const [state, setState] = useState()
     
     useEffect(() => {
-        fetch('https://run.mocky.io/v3/43c3c5b5-4490-4571-92e9-52be4e813f61')
+        fetch('https://run.mocky.io/v3/8f9e1603-005d-41ef-87fc-654b753a7e23')
         .then(response => response.json())
         .then(response => setState(response));
     },[]);
