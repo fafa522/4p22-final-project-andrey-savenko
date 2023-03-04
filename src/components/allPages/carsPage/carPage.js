@@ -6,7 +6,7 @@ function CarPage() {
     const [state, setState] = useState()
     
     useEffect(() => {
-        fetch('https://run.mocky.io/v3/ad5cfa38-a17b-4944-9d79-ad129135f8b9')
+        fetch('https://run.mocky.io/v3/43c3c5b5-4490-4571-92e9-52be4e813f61')
         .then(response => response.json())
         .then(response => setState(response));
     },[]);
